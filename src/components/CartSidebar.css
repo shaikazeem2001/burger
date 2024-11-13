@@ -1,0 +1,53 @@
+/* src/components/CartSidebar.css */
+.cart-sidebar {
+    position: fixed;
+    right: -300px;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    background-color: rgb(213,218,224);
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    transition: right 0.3s ease;
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  .cart-sidebar.open {
+    right: 0;
+  }
+  
+  .close-btn {
+    color: red;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .payment {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    color: wheat;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(55, 105, 213);
+    font-size: larger;
+    font-weight: 600;
+  }
+  .payment:hover{
+    cursor: pointer;
+    color: rgb(192, 169, 125);
+  }
+  @media (max-width: 480px) {
+    .cart-sidebar {
+      width: 80%;
+    }
+  }

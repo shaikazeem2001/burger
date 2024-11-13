@@ -1,0 +1,91 @@
+/* Base styles for the navbar */
+.nav-bar {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(213,218,224);
+  color: black;
+}
+
+/* Burger logo image */
+.img-burger {
+  width: 80px;
+  margin-right: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-burger:hover {
+  transform: rotate(-30deg);
+}
+
+/* Navigation Links */
+.nav-content {
+  display: flex; /* Default to horizontal layout */
+  gap: 20px;
+  list-style-type: none;
+}
+
+.nav-content li {
+ display: flex;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-content li:hover {
+  color: orange;
+}
+
+/* Hamburger icon */
+.nav-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-burger {
+    width: 60px;
+    margin-right: 0;
+  }
+
+  /* Hide the menu by default */
+  .nav-content {
+    display: none; /* Initially hidden */
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  /* Show the menu when the 'active' class is added */
+  .nav-content.active {
+    display: flex; /* Display the menu when active */
+  }
+
+  .nav-content li {
+    width: 100%; 
+    text-align: center;
+  }
+
+  .nav-toggle {
+    display: block; /* Show the hamburger icon */
+  }
+}
+
+/* Desktop View: Ensures the nav items remain in a row */
+@media (min-width: 769px) {
+  .nav-content {
+    display: flex;
+    gap: 20px;
+  }
+}

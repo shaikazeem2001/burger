@@ -1,0 +1,92 @@
+/* src/components/CheckoutForm.css */
+.checkout-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgb(213,218,224);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 480px) {
+  .checkout-container {
+    padding: 0.5rem;
+    width: 90%; /* Ensure full width on smaller screens */
+  }
+}
+
+  
+  .checkout-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .checkout-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card-icon-container {
+    text-align: center;
+  }
+  
+  .card-icon {
+    width: 50px;
+    height: auto;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .card-element {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .card-element--focus {
+    border-color: #556cd6;
+    box-shadow: 0 0 3px #556cd6;
+  }
+  
+  .error-message {
+    color: #ff4d4f;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .pay-button {
+    background-color: #556cd6;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pay-button:hover {
+    background-color: #3b4a8b;
+  }
+  
+  .success-message {
+    color: #28a745;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+  }
+ 

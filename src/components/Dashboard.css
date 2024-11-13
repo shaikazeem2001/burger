@@ -1,0 +1,68 @@
+/* dashboard.css */
+.dashboard {
+  padding: 20px;
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.cart-item button {
+  border-radius: 10px;
+  font-size: large;
+  font-weight: 600;
+  margin-left: 10px;
+  background-color: #ed6363;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #ff1a1a;
+}
+
+.item-name {
+  color: #c15813;
+  font-style: italic;
+  font-size: large;
+  font-weight: bold;
+}
+
+.item-price,
+.item-quan {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.payment {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  color: wheat;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(55, 105, 213);
+  font-size: larger;
+  font-weight: 600;
+}
+.payment:hover{
+  cursor: pointer;
+  color: rgb(192, 169, 125);
+}
+
+.remove{
+  width: 100px;
+}
+@media (max-width: 768px) {
+  .cart-item {
+    grid-template-columns: 1fr 1fr;
+  }
+}

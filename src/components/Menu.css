@@ -1,0 +1,45 @@
+.menu-container {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .menu-title {
+    font-size: 2.5rem;
+    color: #d9534f;
+    margin-bottom: 1rem;
+  }
+  .menu-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  .menu-item {
+    display: inline-block;
+    margin: 1rem 0;
+  }
+  
+  .explore-btn button {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-btn button:hover {
+    background-color: #c9302c;
+  }
+  @media (max-width: 768px) {
+    .menu-section {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .menu-section {
+      grid-template-columns: 1fr;
+    }
+  }

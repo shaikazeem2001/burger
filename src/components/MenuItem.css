@@ -1,0 +1,44 @@
+/* src/components/MenuItem.css */
+
+.menu-item {
+    background-color: rgb(213,218,224);
+    border: 1px solid rgb(213,218,224);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.add-cart{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: rgb(170, 165, 165);
+}
+.add-cart:hover{
+    cursor: pointer;
+}
+.dec-btn{
+    gap: 10px;
+    cursor: pointer;
+border-radius: 8px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: large;
+}
+.inc-btn{
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+.quantity-controls{
+    display: inline-flex;
+    gap: 10px;
+}
+.quan{
+    font-size: large;
+}

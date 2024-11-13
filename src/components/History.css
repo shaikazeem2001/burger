@@ -1,0 +1,62 @@
+.container {
+    border-radius: 20px;
+    background-color:  rgb(255, 192, 110);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container .content {
+    border-radius: 40px;
+    background-color:  rgb(255, 192, 110);
+    width: 60%; /* Width of the text content */
+}
+
+.container h3 {
+    font-family: monospace;
+    background-color:  rgb(255, 192, 110);
+margin-left: 10px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.container h5 {
+    background-color:  rgb(255, 192, 110);
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.container button {
+    margin-left: 120px;
+    background-color:  rgb(255, 192, 110);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: rgb(161, 68, 49);
+    color: #fff;
+    border: 2px solid orange;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color:  rgb(255, 192, 110);
+}
+
+#story-burger {
+    border: 10px black;
+    height: 320px;
+    width: 600px; /* Adjust the width as needed */
+    margin-left: 20px; /* Space between the text content and image */
+}
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

@@ -1,0 +1,40 @@
+.explore-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.explore-title {
+  font-size: 2.5rem;
+  color: #d9534f;
+  margin-bottom: 1rem;
+}
+
+.explore-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Explore.css */
+.menu-item .item-image {
+    width: 150px; /* Adjust width */
+    height: 150px; /* Adjust height */
+    object-fit: cover; /* Ensures the image maintains aspect ratio within the given dimensions */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+  }
+  
+  /* src/components/Explore.css */
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 items per row */
+  gap: 10px; /* Space between items */
+  margin: 20px;
+}
+
+@media (max-width: 480px) {
+  .explore-grid {
+    grid-template-columns: 1fr;
+  }
+}
