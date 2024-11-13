@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/shaikazeem2001/burger.git/static/css/main.bbf3f455.css",
+    "main.js": "/shaikazeem2001/burger.git/static/js/main.855f79dc.js",
+    "static/js/453.d71f3fc1.chunk.js": "/shaikazeem2001/burger.git/static/js/453.d71f3fc1.chunk.js",
+    "static/media/veg-bur.jpg": "/shaikazeem2001/burger.git/static/media/veg-bur.3d70159e2b1ef4ef5665.jpg",
+    "static/media/about-burger.jpg": "/shaikazeem2001/burger.git/static/media/about-burger.0be0e9b4af2948b7008a.jpg",
+    "static/media/sprite.jpg": "/shaikazeem2001/burger.git/static/media/sprite.49ba99ffea060a3504b6.jpg",
+    "static/media/chicken-bur.jpg": "/shaikazeem2001/burger.git/static/media/chicken-bur.1abb855893dccb6152b4.jpg",
+    "static/media/burger-story.jpg": "/shaikazeem2001/burger.git/static/media/burger-story.81c462a68f44342ebeae.jpg",
+    "static/media/fries-menu.jpg": "/shaikazeem2001/burger.git/static/media/fries-menu.be33a3ad8fbb37850bf6.jpg",
+    "static/media/milkshake.jpg": "/shaikazeem2001/burger.git/static/media/milkshake.c016b6e90a596f5d822a.jpg",
+    "static/media/coke.jpg": "/shaikazeem2001/burger.git/static/media/coke.a76a2122205703709aef.jpg",
+    "static/media/real-burger.jpg": "/shaikazeem2001/burger.git/static/media/real-burger.7d78460332c7ef2e888a.jpg",
+    "static/media/cheese-bur.jpg": "/shaikazeem2001/burger.git/static/media/cheese-bur.3987fddbcb5ff3587b13.jpg",
+    "static/media/logo.png": "/shaikazeem2001/burger.git/static/media/logo.0674900ebb4faeab07be.png",
+    "index.html": "/shaikazeem2001/burger.git/index.html",
+    "main.bbf3f455.css.map": "/shaikazeem2001/burger.git/static/css/main.bbf3f455.css.map",
+    "main.855f79dc.js.map": "/shaikazeem2001/burger.git/static/js/main.855f79dc.js.map",
+    "453.d71f3fc1.chunk.js.map": "/shaikazeem2001/burger.git/static/js/453.d71f3fc1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbf3f455.css",
+    "static/js/main.855f79dc.js"
+  ]
+}
